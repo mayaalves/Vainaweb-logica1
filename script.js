@@ -89,3 +89,21 @@ function dobro(numero){
     console.log(numero *2)
 }
 dobro(40)  
+
+//Esse é o desafio de Lógica 5
+//Assunto Estrutura de dados complexos 
+
+let bandas = ["SOAD","Green day","Muse","QOTSA", "Iron maiden"]
+console.log(bandas)
+
+bandas.unshift("Pitty")
+
+bandas.pop()
+
+bandas.push("Agona","Tame impala")
+
+bandas.shift()
+
+let numbers = [7,5,6,3,8,9,2,1,4]
+numbers.sort()  
+console.log(numbers)
