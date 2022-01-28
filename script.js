@@ -64,3 +64,28 @@ for(let b = 2; b <= 50; b +=2){
 
 //Esse é o desafio de lógica 4
 //Assunto função
+
+function msg(){
+    console.log("Confie no processo")
+}
+msg()
+
+function meuNome(nome){
+    console.log(nome)
+}
+meuNome("Mayara")
+
+function perfil(nome, idade, estiloMusical){
+    console.log(`Me chamo ${nome}, tenho ${idade} anos, e meu estilo musical preferido é ${estiloMusical}`)
+}
+perfil("Mayara", 30, "Rock")
+
+function cultural(filme, musica){
+    console.log(`Adoro so filmes do ${filme} e a minha música favorita ${musica}`)
+}
+cultural("Harry Potter", "Happier than ever")
+
+function dobro(numero){
+    console.log(numero *2)
+}
+dobro(40)  
