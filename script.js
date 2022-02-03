@@ -90,7 +90,7 @@ function dobro(numero){
 }
 dobro(40)  
 
-//Esse é o desafio de Lógica 5
+//Esse é o desafio de lógica 5
 //Assunto Estrutura de dados complexos 
 
 let bandas = ["SOAD","Green day","Muse","QOTSA", "Iron maiden"]
@@ -107,3 +107,53 @@ bandas.shift()
 let numbers = [7,5,6,3,8,9,2,1,4]
 numbers.sort()  
 console.log(numbers)
+
+//Esse é o desafio de lógica 6
+//Assunto Estrutura de dados complexos -> Objetos
+
+let eu = {
+    idade: 30,
+    pais: "Brasil",
+    cidade: "Rio de Janeiro"
+}
+
+Eu.BirthdayMonth = "Setembro"
+
+delete eu.cidade
+
+console.log(eu)
+
+let info = [
+    {
+        nome: "Maria",
+        idade: 40,
+        telefone: 98734-2058,
+        amigos: ["Valeria","Marcia","Nabilla","Luana"]
+    },
+    {
+        nome: "Felipe",
+        idade: 25,
+        telefone: 99496-0346,
+        amigos: ["Ana","Pedro","Lucas","Gabriel"]
+    },
+    {
+        nome: "Douglas",
+        idade: 31,
+        telefone: 97645-8368,
+        amigos: ["Alan","Sergio","Mayara","Gabi"]
+    },
+    {
+        nome: "Isabela",
+        idade: 34,
+        telefone: 90947-9496,
+        amigos: ["Carol","Glaucia","Sophia","Luiza"]
+    },
+    {
+        nome: "Beatriz",
+        idade: 29,
+        telefone: 94790-7903,
+        amigos: ["Mercedes","Camilo","Alberto","Jussara"]
+    }
+]
+
+console.log(cadastro[0].amigos[0], cadastro[01].amigos[0], cadastro[2].amigos[0], cadastro[3].amigos[0], cadastro[4].amigos[0])
